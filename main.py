@@ -61,5 +61,8 @@ class Message:
 
 
 # 🚀 MAIN PROGRAM
-m1 = Message(input("☠️: Enter The Message -> "))
-m1.ask()
+
+while True:
+   m1 = Message(input("☠️: Enter The Message -> "))
+   if m1.ask():
+       break
